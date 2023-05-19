@@ -9,3 +9,9 @@ jobs:
       - run: echo "heeeeloo" > nano/parameters.json
       - store_artifacts:
             path: /nano
+workflows:
+  my-workflow:
+    jobs:
+      - build:
+          context:
+            - nano
