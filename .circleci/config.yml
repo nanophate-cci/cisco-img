@@ -2,7 +2,7 @@ version: 2.1
 jobs:
   build:
     docker:
-      - image: devhub-docker.cisco.com/iox-docker/ir800/base-rootfs:latest
+      - image: cimg/python:3.11
     steps:
       - checkout
       - run: echo "hello wowwaaa"
