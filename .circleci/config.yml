@@ -5,4 +5,4 @@ jobs:
       - image: cimg/python:3.11
     steps:
       - checkout
-      - run: echo "hello wowwaaa"
+      - run: echo "hello wowwaassa"
